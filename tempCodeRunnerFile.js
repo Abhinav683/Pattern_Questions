@@ -5,9 +5,10 @@ for (let i = 1; i <= n; i++) {
     if(j<i-1 )
     str+= " ";
     else
-    str+="*"
+    str+="*";
 
   }
-  str += "\n";
 }
 console.log(str);
+
+console.log("this is added");
