@@ -8,7 +8,6 @@ for (let i = 1; i <= n; i++) {
     str+="*";
 
   }
+  str += "\n";
 }
 console.log(str);
-
-console.log("this is added");
