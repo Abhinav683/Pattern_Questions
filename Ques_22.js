@@ -1,8 +1,8 @@
 let n = 5;
 let str = "";
-for (let i = 0; i <=n; i++) {
-  for (let j = 0; j <= 2*n; j++) {
-    if(j>=n-i && j<=i+1)
+for (let i = 0; i <n; i++) {
+  for (let j = 0; j < 2*n; j++) {
+    if(j>=n-i&&j<=n+i)
     {
       if(i%2==0)
         {
@@ -17,10 +17,10 @@ for (let i = 0; i <=n; i++) {
   }
   str += "\n";
 }
-for (let i = 0; i <n; i++) {
-  for (let j = 0; j < 2*n-1; j++) {
-    if(j>i-1 && j<2*n-i-1)
-      if(i%2==0)
+for (let i = 0; i <=n; i++) {
+  for (let j = 0; j <=2*n+1; j++) {
+    if(j>=i&&j<=2*n-i)
+      if(i%2==1)
         {
           str+= "*";
         }
